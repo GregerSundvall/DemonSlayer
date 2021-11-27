@@ -1,0 +1,1500 @@
+Using pre-set license
+Built from '2021.2/release' branch; Version is '2021.2.0f1 (4bf1ec4b23c9) revision 4977132'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1387; Version 2009; 64bit' Language: 'en' Physical Memory: 16276 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Programming/DemonSlayer
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52518
+Successfully changed project path to: C:/Programming/DemonSlayer
+C:/Programming/DemonSlayer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 148.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.0f1 (4bf1ec4b23c9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Programming/DemonSlayer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007792 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (412ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007718 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1290ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (656ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (386ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.7 MB). Loaded Objects now: 5519.
+Memory consumption went from 202.1 MB to 201.4 MB.
+Total: 3.920600 ms (FindLiveObjects: 0.347200 ms CreateObjectMapping: 0.211700 ms MarkObjects: 3.114400 ms  DeleteObjects: 0.246700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 75783.324418 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dcc6a1f9a84d348d22bbb983ee16d7') in 0.036072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2093.890592 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(38b35347542e5af4c9b140950c5b18db) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(38b35347542e5af4c9b140950c5b18db) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '011e31f34b47fc89e137be9391335184') in 0.151452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
+  artifactKey: Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat using Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '198899c57b13009b377692c65d81d6dd') in 0.051893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif using Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aabd2d47937577a6e3223532cae0a3ea') in 0.053910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ExampleAssets/Prefabs/ConstructionLightLow.prefab
+  artifactKey: Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Prefabs/ConstructionLightLow.prefab using Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55b164a74815172c5583e9fca09c3464') in 0.051213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
+  artifactKey: Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif using Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90c7455ecc826270f9ca5652c1645cb8') in 0.013858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0983a0749fbf11cecaae7b8d520f884') in 0.024609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a2d62f169f58415ceda75564942fd04') in 0.017128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53111e120cbc86c8a18c8c50f31b4b89') in 0.067667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExampleAssets/Materials/DryWall_Mat.mat
+  artifactKey: Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Materials/DryWall_Mat.mat using Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91121551c000185555bf68e325c99169') in 0.039414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
+  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1915504639f42473b6cb770e02bfc86e') in 0.037288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Settings/UniversalRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Settings/UniversalRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd67ce76bcafa4d51923f88ebafb2d72') in 0.038968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Textures/Sci_Fi_Character_02_Albedo_02.tga
+  artifactKey: Guid(1b7009f02e3ba3f429b691cf38fb3c1b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Textures/Sci_Fi_Character_02_Albedo_02.tga using Guid(1b7009f02e3ba3f429b691cf38fb3c1b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd9532f6d27fc35c262ea2a133d722de') in 0.049274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Mesh/Sci_Fi_Character_02_Mesh.FBX
+  artifactKey: Guid(aea12a2959467894aa028acd3e65436c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Mesh/Sci_Fi_Character_02_Mesh.FBX using Guid(aea12a2959467894aa028acd3e65436c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b9e088dd5298e16cc415520a0c780ab') in 0.133144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat
+  artifactKey: Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat using Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9257c5f2b9f85f575697107e15131ff0') in 0.065147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
+  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '892265ed4f6060ea0d4d4a3392a254da') in 0.035265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
+  artifactKey: Guid(77583f99dea53b641804bb357092ec83) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif using Guid(77583f99dea53b641804bb357092ec83) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd28dc33da0a183865d9295b0b002180') in 0.024417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(04cadbfd3f82b23449bdd3bc1a1709fc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Scenes/GameScene.unity using Guid(04cadbfd3f82b23449bdd3bc1a1709fc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Scenes/GameScene.unity additively'
+Loaded scene 'Assets/Scenes/GameScene.unity'
+	Deserialize:            0.950 ms
+	Integration:            0.731 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   1.687 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa2310ccef1db60902f615a4bda10fcc') in 0.020780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif
+  artifactKey: Guid(2148396b133b56f40baa7ea4fd22982a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif using Guid(2148396b133b56f40baa7ea4fd22982a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bbffa24c0fd539a11fdef6ddeac249b') in 0.013069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExampleAssets/Materials/Ground_Mat.mat
+  artifactKey: Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Materials/Ground_Mat.mat using Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1800b2f43e6c1f55e9036da2d33aecb1') in 0.033558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat
+  artifactKey: Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat using Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7b7ddbc9e0f69fb8e6557bc1c88e1ff') in 0.012140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Presets/AudioStreaming.preset
+  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ba89757f331ea5341f1d19156c3d99b') in 0.023646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ExampleAssets/Models/safetyhat_low.fbx
+  artifactKey: Guid(9d0d902f71acfe646a46cb625f815a49) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Models/safetyhat_low.fbx using Guid(9d0d902f71acfe646a46cb625f815a49) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eea6ba09ec8d64ffee0262c1b682f3a5') in 0.013979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
+  artifactKey: Guid(55c183dc45153be48a45c4e530127fb3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat using Guid(55c183dc45153be48a45c4e530127fb3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7af810dd99681aef4e3d1ee59499fefa') in 0.050791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Prefabs/Sci_Fi_Sword_02.prefab
+  artifactKey: Guid(24be271091dc69846a57005abb3bf970) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Prefabs/Sci_Fi_Sword_02.prefab using Guid(24be271091dc69846a57005abb3bf970) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af863ff34df42c997915d6d84d7cd352') in 0.044088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Materials/Sci_Fi_Character_04_Body_01.mat
+  artifactKey: Guid(cd4f0480b68eee941884d754537c8edb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Materials/Sci_Fi_Character_04_Body_01.mat using Guid(cd4f0480b68eee941884d754537c8edb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8daa342c40326c7289b5d3f3adb7a307') in 0.143056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Textures/Sci_Fi_Character_02_Metallic.tga
+  artifactKey: Guid(62194557531755949ab01159fb789822) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Textures/Sci_Fi_Character_02_Metallic.tga using Guid(62194557531755949ab01159fb789822) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '035504ba8504b591acfaa92e6e92c9e9') in 0.055773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Materials/Sci_Fi_Character_04_Body_03.mat
+  artifactKey: Guid(129c016d220e02b41b3d9b1b77727647) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Materials/Sci_Fi_Character_04_Body_03.mat using Guid(129c016d220e02b41b3d9b1b77727647) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30e6bee9b89fb34e9364afa034e3f5da') in 0.072792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Textures/Sci_Fi_Character_02_Albedo_03.tga
+  artifactKey: Guid(3d6810e34db669a44a5b164337ff4975) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Textures/Sci_Fi_Character_02_Albedo_03.tga using Guid(3d6810e34db669a44a5b164337ff4975) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55135a495561fdb6c8b1f1bcf12050aa') in 0.085205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Materials/Sci_Fi_Sword_02.mat
+  artifactKey: Guid(f4d7db3e30348434da6f426233176a21) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Materials/Sci_Fi_Sword_02.mat using Guid(f4d7db3e30348434da6f426233176a21) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0568746c5ebb591521d7e2fe857cd54') in 0.195880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Prefabs/Sci_Fi_Character_04_Weapon.prefab
+  artifactKey: Guid(699af1c111e3c46408d5542b11a7fa6a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Prefabs/Sci_Fi_Character_04_Weapon.prefab using Guid(699af1c111e3c46408d5542b11a7fa6a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b39c39bb3471046119fc7fccdc3e676f') in 0.049331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Prefabs/Sci_Fi_Character_04_Color_02.prefab
+  artifactKey: Guid(67ea877a9a3530e4b9517407310d05b5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Prefabs/Sci_Fi_Character_04_Color_02.prefab using Guid(67ea877a9a3530e4b9517407310d05b5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4565ac8f79412b8bb172b739b1fa6e04') in 0.169029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Mesh/Sci_Fi_Character_04.FBX
+  artifactKey: Guid(b793db98f4cd969429586a4bd32f5964) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Mesh/Sci_Fi_Character_04.FBX using Guid(b793db98f4cd969429586a4bd32f5964) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf59a40839ce789e65d98926073f391a') in 0.093750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Mesh/Sci_Fi_Character_05_Mesh.FBX
+  artifactKey: Guid(a1a85c7a90541b74983790709298a7fb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Mesh/Sci_Fi_Character_05_Mesh.FBX using Guid(a1a85c7a90541b74983790709298a7fb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7a80cd8137a4f751c8b409f25a8ef63') in 0.178693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Materials/Sci_Fi_Character_04_Body_02.mat
+  artifactKey: Guid(e97670d989b6b1b4baacbcbe3c7904d3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Materials/Sci_Fi_Character_04_Body_02.mat using Guid(e97670d989b6b1b4baacbcbe3c7904d3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1004e83a9ef402aa4b58049bc4031b79') in 0.056835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Materials/Sci_Fi_Character_04_Details_03.mat
+  artifactKey: Guid(21de46b7037cd904293ea93110b9e93d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Materials/Sci_Fi_Character_04_Details_03.mat using Guid(21de46b7037cd904293ea93110b9e93d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3009e31c8930970f4556d008138a43b') in 0.054449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Presets/Defaults/DirectionalLight_Default.preset
+  artifactKey: Guid(463065d4f17d1d94d848aa127b94dd43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Presets/Defaults/DirectionalLight_Default.preset using Guid(463065d4f17d1d94d848aa127b94dd43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78cdcf5bb9d4d05ae6014e1d015297c1') in 0.011793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat
+  artifactKey: Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat using Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54b644bab6a67d892aee071bdd51d9b3') in 0.011946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Textures/Sci_Fi_Character_02_Emissive.tga
+  artifactKey: Guid(09e18fe9dc005d54fba4816e21d1ef11) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Textures/Sci_Fi_Character_02_Emissive.tga using Guid(09e18fe9dc005d54fba4816e21d1ef11) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bc4c7654f72a78ff6067946169d5cc5') in 0.019123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Prefabs/Sci_Fi_Character_02_Color_01.prefab
+  artifactKey: Guid(e05d898cc6aba114396405df1ca13d4b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Prefabs/Sci_Fi_Character_02_Color_01.prefab using Guid(e05d898cc6aba114396405df1ca13d4b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f63a8daa3b0edee8dde6857cd0fd3809') in 0.099653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6e53d54a103640f403edd0bbc2d9f38') in 0.023874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif
+  artifactKey: Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif using Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be4d5ee0bb735e15e98fc97b7861e776') in 0.011262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc6a6be49a7e44fd7a8222654e52b840') in 0.020488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif
+  artifactKey: Guid(c517a9b1527aec343806327b47ad22df) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif using Guid(c517a9b1527aec343806327b47ad22df) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd5a547f118c7018eb6f3f9bed620b19') in 0.014701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Mesh/Sci_Fi_Character_05_Weapon_Mesh.FBX
+  artifactKey: Guid(d3cad89236c81474ba58248e8486f6b2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Mesh/Sci_Fi_Character_05_Weapon_Mesh.FBX using Guid(d3cad89236c81474ba58248e8486f6b2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17e620780d7b44c94421c4ab9590833a') in 0.029153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc049491b876bfceeb44be3c15bec043') in 0.015860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Materials/Sci_Fi_Character_02_Color_02.mat
+  artifactKey: Guid(2f4406382ac3f304192a49992e2dfd00) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Materials/Sci_Fi_Character_02_Color_02.mat using Guid(2f4406382ac3f304192a49992e2dfd00) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba7fcbb8627f2005bb0c207fe77d5ff4') in 0.058721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Materials/Sci_Fi_05_Character_Details_Color_03.mat
+  artifactKey: Guid(c07658c958b94d646be3f45707468659) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Materials/Sci_Fi_05_Character_Details_Color_03.mat using Guid(c07658c958b94d646be3f45707468659) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8536fe4476c46bd75256ed27f096277c') in 0.071691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
+  artifactKey: Guid(eae496078d11426448124eaf8b285e6b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif using Guid(eae496078d11426448124eaf8b285e6b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd27464d1ac0d8bfe923487cbf4a0fe70') in 0.012319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Materials/Sci_Fi_Character_01_Color_03.mat
+  artifactKey: Guid(2f75bd07553acd44fb31861faa5702d2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Materials/Sci_Fi_Character_01_Color_03.mat using Guid(2f75bd07553acd44fb31861faa5702d2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51b8cb32c500953e8d2b4a288252fa3a') in 0.057753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Materials/Sci_Fi_Character_03_Color_01.mat
+  artifactKey: Guid(ff87fd38e173d5a4496a8b58ce8cc859) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Materials/Sci_Fi_Character_03_Color_01.mat using Guid(ff87fd38e173d5a4496a8b58ce8cc859) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf08eb9879bab60848b09969bf29ce54') in 0.055539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Textures/Sci_Fi_Character_02_MOS.tga
+  artifactKey: Guid(0cc2486e00b8df743a703b36aadf7d32) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Textures/Sci_Fi_Character_02_MOS.tga using Guid(0cc2486e00b8df743a703b36aadf7d32) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff95fc6f074d8565caa00d2237b5a4ad') in 0.035301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(201c1f77fe872924a86132486bc97e82) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif using Guid(201c1f77fe872924a86132486bc97e82) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd59f81c13a241b1841fc44d07580bbaf') in 0.016413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Sword/Sci_Fi_Sword_01_Emissive.tga
+  artifactKey: Guid(f4441d5e4c88b7d49863467961c72bd8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Sword/Sci_Fi_Sword_01_Emissive.tga using Guid(f4441d5e4c88b7d49863467961c72bd8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d5097e7b139f989af07c0a61d75c148') in 0.037590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Sword/Sci_Fi_Sword_01_Normals.tga
+  artifactKey: Guid(10d0986bd89c1854ead16ab095d164d3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Sword/Sci_Fi_Sword_01_Normals.tga using Guid(10d0986bd89c1854ead16ab095d164d3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33262082b85b14cb9b3d9b68382ae34d') in 0.028800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif
+  artifactKey: Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif using Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4bc5c616fe242c1bc38ff5594247245e') in 0.013869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif
+  artifactKey: Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif using Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c087a2a3581f4a424732c1913d13225a') in 0.011671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Sword/Sci_Fi_Sword_01_MOS.tga
+  artifactKey: Guid(8da4060d5357a3f46af55558987e19fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Sword/Sci_Fi_Sword_01_MOS.tga using Guid(8da4060d5357a3f46af55558987e19fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c2065b88a6654465fcc48a15e0dc824') in 0.038541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(888916a5e87c05948b1a97b3c0d42556) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif using Guid(888916a5e87c05948b1a97b3c0d42556) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad385d079b4e4734d2449708c6dffed2') in 0.012226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Materials/Stand.mat
+  artifactKey: Guid(531442284930b674283af1cfbd42cb93) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Materials/Stand.mat using Guid(531442284930b674283af1cfbd42cb93) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9916f3aee02967fa64b6c079a583244') in 0.011876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(6f61f8dd4499250438f1aa39448e860a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif using Guid(6f61f8dd4499250438f1aa39448e860a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dee9446829b2a16ed98973690e3a1e4') in 0.013545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab
+  artifactKey: Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab using Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '077b76fe569b68fd6d018ae86eb1d86a') in 0.027009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExampleAssets/Prefabs/WorkshopSet.prefab
+  artifactKey: Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Prefabs/WorkshopSet.prefab using Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aacc4733c3589e4e5ed19a16b7a24474') in 0.032873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Mesh/Sci_Fi_Character_01_Mesh.FBX
+  artifactKey: Guid(c22b2b62f1af92f4c9c054a2cba949a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Mesh/Sci_Fi_Character_01_Mesh.FBX using Guid(c22b2b62f1af92f4c9c054a2cba949a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e8610b3f38842a55c817e6b5013f945') in 0.031857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Scenes/Sci_Fi_Character_Pack_Demo.unity
+  artifactKey: Guid(0a16c877ecef5d649b81e9de61e20c9d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Scenes/Sci_Fi_Character_Pack_Demo.unity using Guid(0a16c877ecef5d649b81e9de61e20c9d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Sci_Fi_Characters_Pack/Scenes/Sci_Fi_Character_Pack_Demo.unity additively'
+Loaded scene 'Assets/Sci_Fi_Characters_Pack/Scenes/Sci_Fi_Character_Pack_Demo.unity'
+	Deserialize:            1.696 ms
+	Integration:            124.272 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   125.974 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22456e1132c42b7f835cce3502bb74ef') in 2.021746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Mesh/Sci_Fi_Character_03_Mesh.FBX
+  artifactKey: Guid(6f44eaa2a598df3478f0013b68c98bce) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Mesh/Sci_Fi_Character_03_Mesh.FBX using Guid(6f44eaa2a598df3478f0013b68c98bce) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7190ca84ffa9db5287cfa11538b08b01') in 0.044222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Textures/Details/Sci_Fi_Character_04_Details_Albedo_03.tga
+  artifactKey: Guid(9f06cef65cf3e604e8ea52ea3c8e824e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Textures/Details/Sci_Fi_Character_04_Details_Albedo_03.tga using Guid(9f06cef65cf3e604e8ea52ea3c8e824e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53057f4875ce9ff9db606ab581c3cc57') in 0.038178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008479 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Textures/Sword/Sword_02_Metallic.tga
+  artifactKey: Guid(3c6385b75079069469437e13b59877d0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Textures/Sword/Sword_02_Metallic.tga using Guid(3c6385b75079069469437e13b59877d0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10ff1f43855310fe87e943a9a37c5182') in 0.026997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExampleAssets/Models/Stud.fbx
+  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2abc707c1eb96439b3e783e0ed7ee9d') in 0.024329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif using Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06a40ac979748659521f2e55686e6821') in 0.011853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Prefabs/Sci_Fi_Character_03_Color_01.prefab
+  artifactKey: Guid(693841b06d7017342bcd123dde836111) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Prefabs/Sci_Fi_Character_03_Color_01.prefab using Guid(693841b06d7017342bcd123dde836111) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b236aa6c0887baefee572f4660605bfe') in 0.142181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/SampleSceneLightingSettings.lighting
+  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6354b91c4c25aae25a18e8cac1cfc80b') in 0.017557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Character/Sci_Fi_Characters_01_Albedo_01.tga
+  artifactKey: Guid(7240e8120f7fbde4ebfd1266b8375393) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Character/Sci_Fi_Characters_01_Albedo_01.tga using Guid(7240e8120f7fbde4ebfd1266b8375393) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '579684ad57703d3b62f289f3d76cfed2') in 0.038159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Character/Sci_Fi_Characters_01_Emissive.tga
+  artifactKey: Guid(2b7d3fae27b7f9941be87f7b2f0eb4e1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Character/Sci_Fi_Characters_01_Emissive.tga using Guid(2b7d3fae27b7f9941be87f7b2f0eb4e1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9957408d213a2143dff4e27511ee772') in 0.026348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Textures/Body/Sci_Fi_Character_05_Body_Albedo_03.tga
+  artifactKey: Guid(736492a7865766d40b65acd015f61fc9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Textures/Body/Sci_Fi_Character_05_Body_Albedo_03.tga using Guid(736492a7865766d40b65acd015f61fc9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7eafae099a167cd80de630878af16c2a') in 0.043457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif
+  artifactKey: Guid(5e98de278b2ccc14f89b76b85596a3f3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif using Guid(5e98de278b2ccc14f89b76b85596a3f3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1f813f9f29b83649c1a166df73b8f65') in 0.013420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Textures/Details/Sci_Fi_Character_04_Details_Albedo_01.tga
+  artifactKey: Guid(dae4cfdf0d089c64ba08edc974aebc4e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Textures/Details/Sci_Fi_Character_04_Details_Albedo_01.tga using Guid(dae4cfdf0d089c64ba08edc974aebc4e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cb133e91fdb20341daa45f72d4c9a13') in 0.040505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Textures/Character/Sci_Fi_Character_03_Ao.tga
+  artifactKey: Guid(4e4514beeffa60941986884bf0f78e23) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Textures/Character/Sci_Fi_Character_03_Ao.tga using Guid(4e4514beeffa60941986884bf0f78e23) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ca1e206539889f52af9aa2bb2d41e12') in 0.013313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Sword/Sci_Fi_Sword_01_Albedo.tga
+  artifactKey: Guid(5a15efbb557e0264abae99d58c524aa1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Sword/Sci_Fi_Sword_01_Albedo.tga using Guid(5a15efbb557e0264abae99d58c524aa1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '869c0040cc3fece50e97cd3f87b4a4bd') in 0.020285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Textures/Sword/Sword_02_Albedo.tga
+  artifactKey: Guid(de112670f6231eb429458c0e7bd80cc4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Textures/Sword/Sword_02_Albedo.tga using Guid(de112670f6231eb429458c0e7bd80cc4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '992dd3fb8f1796493dc5640e877a5666') in 0.013602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif
+  artifactKey: Guid(5d25a5cd577a4c54e94fdf9cc6f1a631) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif using Guid(5d25a5cd577a4c54e94fdf9cc6f1a631) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f684aba8f1ef5568c27c032bd9b865ea') in 0.019257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Textures/Weapon/Sci_Fi_Character_05_Weapon_MOS.tga
+  artifactKey: Guid(61afc8b40038acf41a7a156584670e97) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Textures/Weapon/Sci_Fi_Character_05_Weapon_MOS.tga using Guid(61afc8b40038acf41a7a156584670e97) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '003495977f71e013105ac3d550b2897d') in 0.053714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Textures/Body/Sci_Fi_Character_04_Body_Ao.tga
+  artifactKey: Guid(b5ee9a57e19917944b529dbe8dabbfaf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Textures/Body/Sci_Fi_Character_04_Body_Ao.tga using Guid(b5ee9a57e19917944b529dbe8dabbfaf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c48ecafd5ae4bc56bc57b0769c68311') in 0.031072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Textures/Details/Sci_Fi_Character_05_Details_Normals.tga
+  artifactKey: Guid(20531b11ac22e694e8f31be5ae6995df) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Textures/Details/Sci_Fi_Character_05_Details_Normals.tga using Guid(20531b11ac22e694e8f31be5ae6995df) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bb27e34d6af24117440d08ac7d041f4') in 0.029742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat
+  artifactKey: Guid(e745492728544aa488aa0429b6068e71) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat using Guid(e745492728544aa488aa0429b6068e71) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1509f11223837a27d7ad5c47547e24ca') in 0.037928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Textures/Details/Sci_Fi_Character_04_Details_Emissive.tga
+  artifactKey: Guid(eff70b4688181394796091085b80b7a9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Textures/Details/Sci_Fi_Character_04_Details_Emissive.tga using Guid(eff70b4688181394796091085b80b7a9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be3532cf723bf784e06bad5c03cbb010') in 0.015657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
+  artifactKey: Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif using Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53d590f170d2c5daecbec17bb1b2754c') in 0.013672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExampleAssets/Models/brush_low.fbx
+  artifactKey: Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Models/brush_low.fbx using Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d28cf280b3a5547105bef40e217df1b') in 0.040181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
+  artifactKey: Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif using Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef9dc7b84e2f282b49aa26da577d8518') in 0.011265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExampleAssets/Prefabs/Workbench.prefab
+  artifactKey: Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Prefabs/Workbench.prefab using Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fabb30a2005bf0d767efd33964b35c5') in 0.086672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExampleAssets/Models/jigsaw_low.fbx
+  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '791919bd92cf9456819667b70b5041cf') in 0.017588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Scenes/SampleScene.unity additively'
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            22.018 ms
+	Integration:            115.351 ms
+	Integration of assets:  3.396 ms
+	Thread Wait Time:       0.084 ms
+	Total Operation Time:   140.849 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91219d711145443676bea1ddd71d83f1') in 0.288819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d1aaf24927be2493a86cabd2d3568ff') in 0.018709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '452df99494241ba146783d8d4fe0226a') in 0.032840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Prefabs/Sci_Fi_Character_02_Color_02.prefab
+  artifactKey: Guid(56906032fd48fb249a7fdc3840d94475) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_02/Prefabs/Sci_Fi_Character_02_Color_02.prefab using Guid(56906032fd48fb249a7fdc3840d94475) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59c130985fc3ac1351f1f0949fa84898') in 0.094782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Character/Sci_Fi_Characters_01_Albedo_02.tga
+  artifactKey: Guid(fbfedaab9bca08745b260a31f2544f53) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Character/Sci_Fi_Characters_01_Albedo_02.tga using Guid(fbfedaab9bca08745b260a31f2544f53) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1e877af0ba05d86a6da43847981f6c8') in 0.025121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif
+  artifactKey: Guid(2de0d72a6700bd94ea57111b29e246fc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif using Guid(2de0d72a6700bd94ea57111b29e246fc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51f0b5257d07ca16b5ea4a9d0789115b') in 0.013776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif using Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c6ad50f784f27c7d9d5683e07cd6c12') in 0.011463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif
+  artifactKey: Guid(e109905c411b0f84e82eaaf2705ece30) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif using Guid(e109905c411b0f84e82eaaf2705ece30) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b86e18fc15b8fdb340c87759c5123865') in 0.015529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Textures/Weapon/Sci_Fi_Character_05_Weapon_Emissive.tga
+  artifactKey: Guid(19f8c23ffe183a045a387936426a79c7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_05/Textures/Weapon/Sci_Fi_Character_05_Weapon_Emissive.tga using Guid(19f8c23ffe183a045a387936426a79c7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7791a9aac48a5378156edc71d261cbac') in 0.014183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Transparent.mat
+  artifactKey: Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Materials/Plastic_Transparent.mat using Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7310b9cc7f7070a300b21ecba9c53579') in 0.008865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f95b6805dbbb8245283a9e566569c06c') in 0.024453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif
+  artifactKey: Guid(b3f247b26e080ca468f1daa963c192ee) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif using Guid(b3f247b26e080ca468f1daa963c192ee) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ebb35e25a41c0e97014be1dcf9751f3') in 0.013089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Textures/Character/Sci_Fi_Character_03_Albedo_03.tga
+  artifactKey: Guid(7ec11181859961649a9e5b1bda68a0ef) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_03/Textures/Character/Sci_Fi_Character_03_Albedo_03.tga using Guid(7ec11181859961649a9e5b1bda68a0ef) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1747ad56967ea99f03ca02b48a3ec8d9') in 0.014300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif
+  artifactKey: Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif using Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0ab168bdeda58dd401b8a123be47feb') in 0.011351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Materials/Sci_Fi_Character_04_Details_01.mat
+  artifactKey: Guid(2527b6db9ff38c9478ed6dc040ce1fbd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_04/Materials/Sci_Fi_Character_04_Details_01.mat using Guid(2527b6db9ff38c9478ed6dc040ce1fbd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9849ea510b267d628de23c7eed644086') in 0.053791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Presets/UtilityTexture.preset
+  artifactKey: Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Presets/UtilityTexture.preset using Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1468bec7abb9ef1ef3a2bd880702016d') in 0.017844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Character/Sci_Fi_Characters_01_Albedo_03.tga
+  artifactKey: Guid(81b08a8537a80d043b41376434034f62) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Sci_Fi_Characters_Pack/Sci_Fi_Character_01/Textures/Character/Sci_Fi_Characters_01_Albedo_03.tga using Guid(81b08a8537a80d043b41376434034f62) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e13ca7b336074cf78fe5c623a3e7d597') in 0.014307 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (0.7 MB). Loaded Objects now: 5569.
+Memory consumption went from 98.4 MB to 97.7 MB.
+Total: 4.533100 ms (FindLiveObjects: 0.348000 ms CreateObjectMapping: 0.260200 ms MarkObjects: 3.642700 ms  DeleteObjects: 0.281500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5569.
+Memory consumption went from 98.4 MB to 97.8 MB.
+Total: 6.053200 ms (FindLiveObjects: 0.413500 ms CreateObjectMapping: 0.347800 ms MarkObjects: 4.966800 ms  DeleteObjects: 0.324400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010446 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1133ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5571.
+Memory consumption went from 197.5 MB to 196.8 MB.
+Total: 3.692700 ms (FindLiveObjects: 0.332500 ms CreateObjectMapping: 0.268200 ms MarkObjects: 2.843500 ms  DeleteObjects: 0.247600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007103 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1036ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5573.
+Memory consumption went from 197.5 MB to 196.8 MB.
+Total: 3.291200 ms (FindLiveObjects: 0.333800 ms CreateObjectMapping: 0.122400 ms MarkObjects: 2.596000 ms  DeleteObjects: 0.238100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006751 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1036ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5575.
+Memory consumption went from 197.5 MB to 196.8 MB.
+Total: 4.365900 ms (FindLiveObjects: 0.417700 ms CreateObjectMapping: 0.331800 ms MarkObjects: 3.347800 ms  DeleteObjects: 0.267500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007263 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1034ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5577.
+Memory consumption went from 197.5 MB to 196.9 MB.
+Total: 3.483500 ms (FindLiveObjects: 0.327600 ms CreateObjectMapping: 0.122700 ms MarkObjects: 2.788400 ms  DeleteObjects: 0.243800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006842 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1023ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5579.
+Memory consumption went from 197.3 MB to 196.7 MB.
+Total: 3.404500 ms (FindLiveObjects: 0.317500 ms CreateObjectMapping: 0.148900 ms MarkObjects: 2.707500 ms  DeleteObjects: 0.229800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.117082 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.154 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1154ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (956ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5581.
+Memory consumption went from 197.6 MB to 196.9 MB.
+Total: 3.383900 ms (FindLiveObjects: 0.291600 ms CreateObjectMapping: 0.195400 ms MarkObjects: 2.669500 ms  DeleteObjects: 0.226700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007012 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1036ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5583.
+Memory consumption went from 197.6 MB to 196.9 MB.
+Total: 3.905600 ms (FindLiveObjects: 0.314300 ms CreateObjectMapping: 0.221600 ms MarkObjects: 3.123700 ms  DeleteObjects: 0.245200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006387 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1050ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (427ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5585.
+Memory consumption went from 197.6 MB to 196.9 MB.
+Total: 3.582300 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.244100 ms MarkObjects: 2.772100 ms  DeleteObjects: 0.237100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006247 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Programming\DemonSlayer\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4945 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (0.7 MB). Loaded Objects now: 5587.
+Memory consumption went from 197.6 MB to 196.9 MB.
+Total: 3.882400 ms (FindLiveObjects: 0.415400 ms CreateObjectMapping: 0.182500 ms MarkObjects: 2.868300 ms  DeleteObjects: 0.415400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
