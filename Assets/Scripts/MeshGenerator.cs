@@ -12,8 +12,8 @@ public class MeshGenerator : MonoBehaviour
     private Vector3[] vertices;
     private int[] triangles;
 
-    public int xSize = 100;
-    public int zSize = 100;
+    public int xSize;
+    public int zSize;
     
     void Start()
     {
@@ -23,6 +23,7 @@ public class MeshGenerator : MonoBehaviour
         CreateShape();
         
         UpdateMesh();
+        transform.localScale = new Vector3(10, 10, 10);
     }
     
 
@@ -44,13 +45,14 @@ public class MeshGenerator : MonoBehaviour
             for (int x = 0; x <= xSize; x++)
             {
                 //float y = Mathf.PerlinNoise(x * .3f, z * .3f) * 2;
-                float y = Mathf.PerlinNoise(x * .99f, z *.99f);
-                y += Mathf.PerlinNoise(x * 0.1f, z * 0.1f) * 10;
-                y += Mathf.PerlinNoise(x * 0.01f, z * 0.01f) * 100;
+                float y = Mathf.PerlinNoise(x * 0.01f, z * 0.01f) * 50;
+                y += Mathf.PerlinNoise(x * 0.1f, z * 0.1f) * 2;
+                y += Mathf.PerlinNoise(x * .99f, z *.99f);
                 vertices[i] = new Vector3(x, y, z);
                 i++;
             }
         }
+        Debug.Log(vertices.Length);
 
         triangles = new int[xSize * zSize * 6];
         
